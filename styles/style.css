@@ -5,7 +5,7 @@
 }
 .calculator-container {
   //  margin: 0 auto;
-    max-width: 600px;
+    max-width: 100%;
     text-align: center;
     padding: 50px 20px;
     width: auto;
