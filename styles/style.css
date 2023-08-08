@@ -15,7 +15,8 @@
     opacity: 0;
     line-height: 1.4;
     color: #000000;
-    font-family: Vazirmatn, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: Vazirmatn, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal normal normal 18px/28px Vazirmatn;
 }
 .calculator-container a {
     text-decoration: none;
