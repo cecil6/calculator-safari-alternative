@@ -11,13 +11,12 @@
     width: auto;
 }
 
-.calculator-container h2 {
+.calculator-container p {
     opacity: 0;
     line-height: 1.4;
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font: normal normal normal 18px/28px Vazirmatn;
     font-size: 22px;
-    font-weight: 600;
 }
 .calculator-container a {
     text-decoration: none;
