@@ -11,7 +11,7 @@ $(document).ready(function() {
         }
 
         animateWithPromise($('.logo'), {'opacity':'1'}, 500)
-            .then(() => animateWithPromise($('h2'), {'opacity':'1'}, 500))
+            .then(() => animateWithPromise($('p'), {'opacity':'1'}, 500))
             .then(() => {
                 $('.calculator-btn').css('bottom', '-50px').css('opacity', '1'); // Set initial position and opacity
                 return animateWithPromise($('.calculator-btn'), {'bottom': '0'}, 500); // Animate from bottom to top
@@ -19,7 +19,7 @@ $(document).ready(function() {
             .catch((error) => {
                 console.error('Error during animations:', error);
                 $('.logo').css('opacity', '1');
-                $('h2').css('opacity', '1');
+                $('p').css('opacity', '1');
                 $('.calculator-btn').css('bottom', '0').css('opacity', '1');
             });
 
