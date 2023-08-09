@@ -14,7 +14,7 @@
 .calculator-container p {
     color: #000000;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     opacity: 0;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
@@ -25,7 +25,7 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
     display: inline-block;
     padding: 15px 40px;
