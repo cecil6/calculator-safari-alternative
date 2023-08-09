@@ -1,0 +1,81 @@
+/* Set logo styles */
+.calculator-container .calculator-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adjust container styles */
+.calculator-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.calculator-container p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.calculator-container a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 25px;
+    background-color: #5261A9;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 1s, pulse 1s infinite alternate;
+}
+
+.calculator-container a.pulse-off {
+    animation: none; /* Turn off Pulsating Animation */
+}
+
+.calculator-container a p {
+    margin: 0;
+}
+
+.calculator-container a:hover {
+    background: #EE7D62;
+    animation: none; /* Mouse hover interrupts the pulsating animation */
+}
+
+.calculator-btn {
+    opacity: 0;
+}
+
+.calculator-hidden {
+    display: none !important;
+}
+
+.safari-calculator-container {
+    max-width: 600px;
+}
+
+.d-none {
+    display: none;
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .calculator-container {
+        padding: 30px 10px;
+    }
+    .safari-calculator-container {
+        padding: 0 10px;
+    }
+}
